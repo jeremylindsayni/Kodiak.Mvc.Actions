@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Kodiak.Mvc.Actions</id>
+        <version>1.0.0</version>
+        <title>Custom Mvc Action Results</title>
+        <authors>Jeremy Lindsay (@jeremylindsayni)</authors>
+        <owners>Jeremy Lindsay (@jeremylindsayni)</owners>
+        <licenseUrl>https://github.com/jeremylindsayni/Kodiak.Mvc.Actions/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/jeremylindsayni/Kodiak.Mvc.Actions</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Custom Mvc Action Results</description>
+        <summary>Custom Mvc Action Results</summary>
+        <copyright>Copyright 2017: Jeremy Lindsay. All rights reserved.</copyright>
+        <language>en-US</language>
+    </metadata>
+    <files>
+        <file src="src\bin\Debug\Kodiak.Mvc.Actions.dll" target="lib\net40\Kodiak.Mvc.Actions.dll" />
+    </files>
+</package>
