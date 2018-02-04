@@ -13,6 +13,11 @@
         <summary>Custom Mvc Action Results</summary>
         <copyright>Copyright 2017: Jeremy Lindsay. All rights reserved.</copyright>
         <language>en-US</language>
+		<dependencies>
+            <group targetFramework=".NETFramework4.0">
+                <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
+            </group>
+        </dependencies>
     </metadata>
     <files>
         <file src="src\bin\Debug\Kodiak.Mvc.Actions.dll" target="lib\net40\Kodiak.Mvc.Actions.dll" />
