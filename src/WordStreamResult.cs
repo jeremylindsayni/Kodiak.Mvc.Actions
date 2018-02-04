@@ -33,6 +33,8 @@ namespace Kodiak.Mvc.Actions
             context.HttpContext.Response.ContentType = "application/vnd.openxmlformats-officedocument.wordprocessingml.document";
             context.HttpContext.Response.AddHeader("content-disposition", $"attachment; filename={this.FileName}");
             context.HttpContext.Response.BinaryWrite(WordDocumentStream.ToArray());
+            WordDocumentStream.Dispose();
+            WordDocumentStream = null;
         }
     }
 }

@@ -33,6 +33,8 @@ namespace Kodiak.Mvc.Actions
             context.HttpContext.Response.ContentType = "application/pdf";
             context.HttpContext.Response.AddHeader("content-disposition", $"attachment; filename={this.FileName}");
             context.HttpContext.Response.BinaryWrite(PdfStream.ToArray());
+            PdfStream.Dispose();
+            PdfStream = null;
         }
     }
 }
